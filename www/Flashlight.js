@@ -29,6 +29,11 @@ Flashlight.prototype = {
       this.switchOn(successCallback, errorCallback, options);
     }
   },
+  
+  pruebaFuncion: function (successCallback, errorCallback, options) {
+    this._isSwitchedOn = false;
+    cordova.exec(successCallback, errorCallback, "Flashlight", "pruebaFuncion", []);
+  },
 
   isSwitchedOn: function () {
     return this._isSwitchedOn;
