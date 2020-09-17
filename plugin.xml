@@ -16,9 +16,9 @@
 
   <keywords>Torch, Flashlight, Flash, Light</keywords>
 
-  <repo>https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugin.git</repo>
+  <repo>https://github.com/AngelHerrer/Flashlight-PhoneGap-Plugin.git</repo>
 
-  <issue>https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugin/issues</issue>
+  <issue>https://github.com/AngelHerrer/Flashlight-PhoneGap-Plugin/issues</issue>
 
   <engines>
     <engine name="cordova" version=">=3.0.0"/>
