@@ -28,6 +28,8 @@ public class Flashlight extends CordovaPlugin {
   private static final String ACTION_AVAILABLE = "available";
   private static final String ACTION_SWITCH_ON = "switchOn";
   private static final String ACTION_SWITCH_OFF = "switchOff";
+  private static final String PRUEBA_FUNCION = "pruebaFuncion";
+
 
   private static Boolean capable;
   private boolean releasing;
@@ -79,6 +81,9 @@ public class Flashlight extends CordovaPlugin {
         return true;
       } else if (action.equals(ACTION_AVAILABLE)) {
         callbackContext.success(isCapable() ? 1 : 0);
+        return true;
+      } else if(action.equals(PRUEBA_FUNCION)) {
+        callbackContext.success("Hola Mundo");
         return true;
       } else {
         callbackContext.error("flashlight." + action + " is not a supported function.");
