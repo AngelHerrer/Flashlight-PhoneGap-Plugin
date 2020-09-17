@@ -2,13 +2,13 @@
 
 by [Eddy Verbruggen](http://www.x-services.nl) for iOS, Android and WP8
 
-1. [Description](https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugin#1-description)
-2. [Installation](https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugin#2-installation)
-	2. [Automatically (CLI / Plugman)](https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugin#automatically-cli--plugman)
-	2. [Manually](https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugin#manually)
-	2. [PhoneGap Build](https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugin#phonegap-build)
-3. [Usage](https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugin#3-usage)
-4. [Credits](https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugin#4-credits)
+1. [Description](https://github.com/AngelHerrer/Flashlight-PhoneGap-Plugin#1-description)
+2. [Installation](https://github.com/AngelHerrer/Flashlight-PhoneGap-Plugin#2-installation)
+	2. [Automatically (CLI / Plugman)](https://github.com/AngelHerrer/Flashlight-PhoneGap-Plugin#automatically-cli--plugman)
+	2. [Manually](https://github.com/AngelHerrer/Flashlight-PhoneGap-Plugin#manually)
+	2. [PhoneGap Build](https://github.com/AngelHerrer/Flashlight-PhoneGap-Plugin#phonegap-build)
+3. [Usage](https://github.com/AngelHerrer/Flashlight-PhoneGap-Plugin#3-usage)
+4. [Credits](https://github.com/AngelHerrer/Flashlight-PhoneGap-Plugin#4-credits)
 
 ## 1. Description
 
@@ -31,7 +31,7 @@ $ cordova plugin add cordova-plugin-flashlight
 
 Bleeding edge version from Github:
 ```
-$ cordova plugin add https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugin
+$ cordova plugin add https://github.com/AngelHerrer/Flashlight-PhoneGap-Plugin
 ```
 
 ### PhoneGap Build
@@ -100,5 +100,5 @@ function exitApp() {
 ## 4. CREDITS ##
 * This plugin was streamlined and enhanced for Plugman / PhoneGap Build by [Eddy Verbruggen](http://www.x-services.nl).
 * The Android code was inspired by the [PhoneGap Torch plugin](https://github.com/phonegap/phonegap-plugins/tree/DEPRECATED/Android/Torch).
-* Thanks to [HuaHub](https://github.com/HuaHub) for [making me fix a camera lock issue on Android](https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugin/issues/3).
+* Thanks to [HuaHub](https://github.com/HuaHub) for [making me fix a camera lock issue on Android](https://github.com/AngelHerrer/Flashlight-PhoneGap-Plugin/issues/3).
 * The iOS code was inspired by [Tom Schreck](https://github.com/tomschreck/iOS-Torch-Plugin).
